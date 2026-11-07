@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "flag-icons/css/flag-icons.min.css";
+
+.container1 {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("./fonts/LibreBaskerville-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("./fonts/SourceSans3-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-libre: "Libre Baskerville", serif;
+  --font-source: "Source Sans 3", sans-serif;
+  --color-light-title: #1b2418;
+  --color-light-mainBtn: #7d9a24;
+  --color-light-urgu: #d9a23b;
+  --color-light-cart: #fff3cc;
+  --color-light-fon: #fffbf0;
+  --color-dark-title: #fff3cc;
+  --color-dark-mainBtn: #8fb02c;
+  --color-dark-urgu: #e8b14a;
+  --color-dark-cart: #1b2418;
+  --color-dark-fon: #121a10;
+}
+
+button {
+  cursor: pointer;
+}
